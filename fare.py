@@ -1,7 +1,7 @@
 import requests
 import json
 
-key= "AIzaSyDfFjZLdqNvPtdzzEiUNcKPkq3qdfmpTug"
+key= " "
 source="borivali"
 destination="kandivali"
 
