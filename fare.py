@@ -14,9 +14,10 @@ print(ans,ans.text,type(ans.text))
 j_ans=json.loads(ans.text)
 print(j_ans['rows'][0]['elements'][0]['distance']['text'])
 
-if (j_ans<=1.5):
+a = j_ans
+if (a<=1.5):
     print('cost=rs.20')
 else:
-    price=j_ans*12.19
+    price=a*12.19
     
 print(price)
